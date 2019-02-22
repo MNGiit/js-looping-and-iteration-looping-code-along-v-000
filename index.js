@@ -11,17 +11,16 @@ function tailsNeverFails() {
   // if it evaluates to more than 0.5, then it is Tails
   // each time it gets Tails, add 1 to Tails counter
   // when it's not Tails anymore, end it with "You got NUMBER tails in a row!"
+  let inARow = false;
+  let tailsCount = 0;
+  let headsOrTails;
+  let begin = true;
+  
+  while (begin === true) {
+    headsOrTails = Math.random();
+    begin = false;
+      
+  }
   
   
 }
-
-
-
-while ([condition]) {
-  [loop body]
-}
-
-let countdown = 10;
- 
-while (countdown > 0) {
-    console.log(--countdown);

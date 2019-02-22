@@ -12,3 +12,6 @@ function tailsNeverFails() {
 
 
 
+while ([condition]) {
+  [loop body]
+}

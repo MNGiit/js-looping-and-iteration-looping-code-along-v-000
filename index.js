@@ -4,3 +4,6 @@ function printBadges(arr) {
     console.log(`${arr[number]}`);
   }
 }
+
+
+

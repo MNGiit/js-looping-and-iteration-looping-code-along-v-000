@@ -20,6 +20,6 @@ function tailsNeverFails() {
   while (headsOrTails()) {
     tailsCount++;
   }
-  
-  console.log(`You got ${tailsCount} tails in a row!`);
+  const string = `You got ${tailsCount} tails in a row!`;
+  return strong;
 }

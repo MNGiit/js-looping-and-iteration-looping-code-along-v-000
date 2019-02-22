@@ -7,6 +7,11 @@ function printBadges(arr) {
 }
 
 function tailsNeverFails() {
+  // if Math.random() evaluates to less than 0.5, the coin landed on Heads
+  // if it evaluates to more than 0.5, then it is Tails
+  // each time it gets Tails, add 1 to Tails counter
+  // when it's not Tails anymore, end it with "You got NUMBER tails in a row!"
+  
   
 }
 

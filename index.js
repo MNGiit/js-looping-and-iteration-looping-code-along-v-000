@@ -21,5 +21,5 @@ function tailsNeverFails() {
     tailsCount++;
   }
   const string = `You got ${tailsCount} tails in a row!`;
-  return strong;
+  return string;
 }

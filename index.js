@@ -5,3 +5,18 @@ function printBadges(arr) {
   }
   return arr;
 }
+
+function tailsNeverFails() {
+  
+}
+
+
+
+
+
+
+invokes Math.random() to simulate coin flips ‣
+ReferenceError: tailsNeverFails is not defined
+    at Context.it (test/indexTest.js:51:4)spy.returns(0.2);
+tailsNeverFails();
+expect(spy.calledOnce).to.be.true;
